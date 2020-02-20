@@ -14,13 +14,13 @@ from selenium.webdriver.common.proxy import *
 no_of_reviews = 1000
 
 non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
-driver = webdriver.Chrome('/Users/kangyunseo/Downloads/chromedriver')
+driver = webdriver.Chrome('/Users/kangyunseo/Downloads/chromedriver') #your web driver
 
 wait = WebDriverWait( driver, 10 )
 
 
 # Append your app store urls here
-urls = ["https://play.google.com/store/apps/details?id=com.flipkart.android&hl=en"]
+urls = ["https://play.google.com/store/apps/details?id=com.flipkart.android&hl=en"] #your play store link (support string list type)
 
 """
 ref from HUX at dev.to
