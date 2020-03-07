@@ -1,5 +1,3 @@
-# coding: utf-8
-
 import time
 from bs4 import BeautifulSoup
 import sys, io
